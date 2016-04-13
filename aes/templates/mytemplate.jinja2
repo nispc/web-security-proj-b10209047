@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <form method="post">
+    <textarea name="raw" id="" cols="30" rows="10">{{ raw  }}</textarea>
+    <textarea name="encrypted" id="" cols="30" rows="10">{{  encrypted }}</textarea>
+    <hr>
+    <button type="submit" name="mode" value="encrypted">加密</button>
+    <button type="submit" name="mode" value="decrypted">解密</button>
+  </form>
+  </form>
+<pre>{{ mode }}</pre>
+</body>
+</html>
